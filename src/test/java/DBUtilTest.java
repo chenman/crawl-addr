@@ -1,4 +1,4 @@
-import util.DBUtil;
+import util.db.DBUtil;
 
 public class DBUtilTest {
 
