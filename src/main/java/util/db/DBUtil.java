@@ -66,9 +66,6 @@ public class DBUtil {
 			stmt.setString(6, latitude);
 			stmt.setString(7, longitude);
 			stmt.executeUpdate();
-
-			stmt.close();
-			conn.close();
 		} catch (SQLException se) {
 			se.printStackTrace();
 			afterQueryProcess(stmt, conn, result);

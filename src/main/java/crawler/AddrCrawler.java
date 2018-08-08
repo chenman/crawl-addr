@@ -30,9 +30,9 @@ public class AddrCrawler {
 				"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2MicroMessenger android micromessage micromessenger",
 				"Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5MicroMessenger android micromessage micromessenger" };
 
-		Long id = 110000000030000L;
+		Long id = 110000000050000L;
 		DBUtil dbUtil = new DBUtil();
-		while (id < 110000000050000L) {
+		while (id < 110000000060000L) {
 			String systemId = String.format("350300%015d", id);
 
 			index1 = (int) (Math.random() * operIds.length);
