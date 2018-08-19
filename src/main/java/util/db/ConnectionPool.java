@@ -13,9 +13,9 @@ public class ConnectionPool {
 	private String password = "123456";
 	
 	private int maxIdleTime = 60;
-	private int maxPoolSize = 20;
-	private int minPoolSize = 10;
-	private int InitialPoolSize = 10;
+	private int maxPoolSize = 5;
+	private int minPoolSize = 2;
+	private int InitialPoolSize = 2;
 	private int maxStatements = 60;
 	private ComboPooledDataSource cpd;
 
